@@ -1,1 +1,1 @@
-web : gunicorn drugabuseapp:server
+web: gunicorn drugabuseapp:server  --timeout 200
